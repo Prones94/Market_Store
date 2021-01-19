@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Button from '../Button/Button';
 import Form from '../Form/Form';
 
@@ -18,7 +19,7 @@ class SignUp extends React.Component {
     }
   }
 
-  handlesubmit = async e => {
+  handleSubmit = async e => {
     e.preventDefault();
 
     const  { displayName, email, password, confirmPassword } = this.state;
@@ -46,8 +47,6 @@ class SignUp extends React.Component {
 
   handleChange = e => {
     const { name, value } = e.target;
-
-
     this.setState({[name]: value})
   }
 
@@ -57,7 +56,7 @@ class SignUp extends React.Component {
       <div className="signup">
         <h2 className="signup__title">I do not have an account</h2>
         <span>Sign up using your email and password</span>
-        <form className="signup__form" onSubmit={this.handleSubmit}>
+        <form className="signup__form" onSubmit={this.handleSubmit} autoComplete="off">
           <Form
             required
             type="text"
@@ -85,10 +84,10 @@ class SignUp extends React.Component {
           <Form
             required
             type="password"
-            name="confirmpassword"
+            name="confirmPassword"
             value={confirmPassword}
             onChange={this.handleChange}
-            label="Confirm Password"
+            label="Re-Type Password"
           />
           <Button type="submit">Sign Up</Button>
         </form>
