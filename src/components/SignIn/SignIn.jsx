@@ -4,7 +4,7 @@ import './SignIn.styles.scss'
 import Form from '../Form/Form';
 import Button from '../Button/Button';
 
-import { signinwithGoogle } from '../../firebase/firebase.utils';
+import { auth, signinwithGoogle } from '../../firebase/firebase.utils';
 
 class SignIn extends React.Component {
   constructor(props){
@@ -16,8 +16,17 @@ class SignIn extends React.Component {
     }
   }
 
-  handleSubmit = e => {
+  handleSubmit = async e => {
     e.preventDefault();
+
+    const { email, password } = this.state;
+
+    try {
+      await auth.signInWithEmailAndPassword(email, password);
+      this.setState({ email: '', password: ''})
+    } catch (err) {
+      console.log(err);
+    }
 
     this.setState({ email: '', password: ''})
   }
@@ -53,7 +62,7 @@ class SignIn extends React.Component {
             />
           <div className="signin__button_group">
           <Button type="submit">Sign In</Button>
-          <Button onClick={signinwithGoogle} isGoogleSignIn>{' '}Sign in with Google{' '}</Button>
+          <Button type="button" onClick={signinwithGoogle} isGoogleSignIn>{' '}Sign in with Google{' '}</Button>
           </div>
         </form>
       </div>

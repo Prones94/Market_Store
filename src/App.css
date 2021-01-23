@@ -11,3 +11,7 @@ a {
 a:hover {
   color: blueviolet;
 }
+
+* {
+  box-sizing: border-box;
+}
