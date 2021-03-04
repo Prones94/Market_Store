@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../Button/Button';
 
 import './Items.styles.scss'
 
@@ -11,6 +12,7 @@ const Items = ({ id, name, price, imageUrl }) => (
         <span className="items__name">{ name }</span>
         <span className="items__price">{ price }</span>
       </div>
+      <Button inverted>Add to Cart</Button>
 
     </div>
   )

@@ -10,36 +10,34 @@ class Directory extends React.Component {
 
     this.state = {
       sections: [{
-        title: 'monitors',
-        imageUrl: 'https://images.unsplash.com/photo-1551645120-d70bfe84c826?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDN8fG1vbml0b3JzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-        size: 'small',
+        title: 'Hats',
+        imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
         id: 1,
-        linkUrl: 'monitors'
+        linkUrl: 'hats'
       },
       {
-        title: 'lamps',
-        imageUrl: 'https://images.unsplash.com/photo-1560074557-d54ddce534f7?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTF8fG9mZmljZSUyMGxhbXB8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-        size: 'small',
+        title: 'Jackets',
+        imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
         id: 2,
         linkUrl: '',
       },
       {
-        title: 'speakers',
-        imageUrl: 'https://images.unsplash.com/photo-1416339306562-f3d12fefd36f?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjB8fG9mZmljZSUyMHNwZWFrZXJzfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-        size: 'small',
+        title: 'Sneakers',
+        imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
         id: 3,
         linkUrl: '',
       },
       {
-        title: 'storage',
-        imageUrl: 'https://images.unsplash.com/photo-1515054458823-948dc294418d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fG9mZmljZSUyMHN0b3JhZ2V8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
-        size: 'small',
+        title: 'Womens',
+        imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+        size: 'large',
         id: 4,
         linkUrl: '',
       },
       {
-        title: 'chairs',
-        imageUrl: 'https://images.unsplash.com/photo-1596079890775-20e5099dc924?ixid=MXwxMjA3fDB8MHxzZWFyY2h8OXx8Z2FtaW5nJTIwY2hhaXJ8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60',
+        title: 'Mens',
+        imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+        size: 'large',
         id: 5,
         linkUrl:'',
       }
