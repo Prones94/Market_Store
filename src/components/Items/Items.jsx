@@ -1,12 +1,13 @@
 import React from 'react'
 import Button from '../Button/Button';
+
 import { connect } from 'react-redux'
 import { addItem } from '../../redux/cart/cart.actions'
 
 import './Items.styles.scss'
 
 const Items = ({ item, addItem }) => {
-  const { id, name, price, imageUrl} = item;
+  const { name, price, imageUrl} = item;
   return (
     <div className="items">
       <div className="items__image" style={{

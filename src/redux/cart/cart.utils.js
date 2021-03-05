@@ -1,6 +1,4 @@
-// Utility functions allow us to keep our files clean and organize fucntions that we may need in multiple files in one location
-
-export const addItemToCart = (cartItems, newItem) => {
+export const addItem = (cartItems, newItem) => {
   const existingCartItem = cartItems.find(
     cartItem => cartItem.id === newItem.id
     );
@@ -9,7 +7,7 @@ export const addItemToCart = (cartItems, newItem) => {
     return cartItems.map(cartItem =>
         cartItem.id === newItem.id
           ? {...cartItem, quantity: cartItem.quantity + 1}
-          : {...cartItem}
+          : cartItem
       )
   }
 
