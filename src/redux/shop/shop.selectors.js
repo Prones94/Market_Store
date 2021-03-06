@@ -17,4 +17,4 @@ export const selectCollection = collectionUrlParam =>
     return collections.find(collection => {
       return collection.routeName === collectionUrlParam
     })
-  });w
+  });
