@@ -1,3 +1,6 @@
+![Github Issues](https://img.shields.io/github/issues/Prones94/Market_Store)
+![Github Last Commit](https://img.shields.io/github/last-commit/Prones94/Market_Store)
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -54,7 +57,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="src/assets/Market_3.png" alt="Main Page" width="120" height="100">
+<img src="src/assets/Market_3.png" alt="Main Page" width="820" height="550">
 
 
 Market is an e-commerce web platform, providing a clean and very easy user experience for customers to use. This is intergrated with a test version of Stripe, so it is unable to process real payments. This platform will be using Firebase as a means to authenticate and hold storage.
@@ -62,11 +65,11 @@ Market is an e-commerce web platform, providing a clean and very easy user exper
 
 ### Built With
 
-* [](React)
-* [](Redux)
-* [](GraphQL)
-* [](SASS)
-* [](Firebase)
+* [React](React)
+* [Redux](Redux)
+* [GraphQL](GraphQL)
+* [SaSS](SASS)
+* [Firebase](Firebase)
 
 
 
@@ -99,10 +102,9 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-<img src="src/assets/Market_2.png" alt="Sign In" width="120" height="100">
+<img src="src/assets/Market_2.png" alt="Sign In" width="420" height="300">
+<img src="src/assets/Market_1.png" alt="Items" width="420" height="300">
 The user can sign in with either their google account or their email. If they need to register, then they can register with their email.
-
-<img src="src/assets/Market_1.png" alt="Items" width="120" height="100">
 Once signed in, the user can look at different categories based on the type of clothing. Once clicked, the category will show a list of all the items associated with that category type. Users can click on on the item, adding this item to the cart at the top right of the page. The cart can show all the added items and also remove them as well.
 
 <!-- ROADMAP -->
