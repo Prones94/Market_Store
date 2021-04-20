@@ -1,15 +1,3 @@
-# Market_Store
-E-Commerce Site using React, Firebase, Auth
-
-https://img.shields.io/github/issues/Prones94/Market_Store
-[![Forks][forks-shield]][https://img.shields.io/github/forks/Prones94/Market_Store]
-[![Stargazers][stars-shield]][https://img.shields.io/github/stars/Prones94/Market_Store]
-[![Issues][issues-shield]][https://img.shields.io/github/issues/Prones94/Market_Store]
-https://img.shields.io/github/license/Prones94/Market_Store
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/i-am-ian-rones/]
-
-
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
